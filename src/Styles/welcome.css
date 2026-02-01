@@ -1,0 +1,57 @@
+.welcome {
+  height: 100%;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.welcome-content {
+  margin-bottom: 32px;
+}
+
+.welcome-content h1 {
+  font-family: "Rubik";
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d2226;
+  line-height: 34px;
+}
+
+.welcome-content p {
+  font-family: "Rubik";
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(29, 34, 38, 0.6);
+  line-height: 26px;
+}
+
+.welcome-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.primary-btn {
+  font-family: "Rubik";
+  background-color: #6c25ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  font-family: "Rubik";
+  background-color: #6c25ff4b;
+  color: #1d2226;
+  font-size: 16px;
+  font-weight: 500;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}

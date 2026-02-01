@@ -1,0 +1,80 @@
+.profile {
+  height: 100%;
+  background: #ffffff;
+  font-family: "Rubik";
+}
+
+.profile-header {
+  padding: 16px 20px;
+  margin-top: 1rem;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 18px;
+}
+
+.profile-header h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1d2226;
+}
+
+.profile-card {
+  padding: 20px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.avatar-wrapper {
+  position: relative;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.edit-badge {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+
+  background: #6c25ff;
+  color: #ffffff;
+
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-details h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1d2226;
+  margin-bottom: 4px;
+}
+
+.user-details p {
+  font-size: 13px;
+  color: #7a7a7a;
+}
+
+.profile-desc {
+  font-size: 13px;
+  line-height: 20px;
+  color: #7a7a7a;
+}
+
+.divider {
+  border-top: 2px dashed #dcdcdc;
+}

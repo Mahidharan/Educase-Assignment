@@ -1,0 +1,98 @@
+.signup {
+  height: 100%;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.signup-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup h1 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d2226;
+  line-height: 34px;
+  margin-bottom: 18px;
+}
+
+.form-group.floating {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.form-group.floating label {
+  font-family: "Rubik";
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  background: #ffffff;
+  padding: 0 4px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #6c25ff;
+}
+
+.form-group.floating label span {
+  color: #ff0000;
+}
+
+.form-group.floating input {
+  width: 100%;
+  height: 40px;
+  padding: 12px 10px 0;
+  font-size: 14px;
+  color: #1d2226;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 0.6rem;
+}
+
+.form-group.floating input::placeholder {
+  color: #bcbcbc;
+}
+
+.form-group.agency {
+  margin-top: 8px;
+}
+
+.agency-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6c25ff;
+}
+
+.agency-label span {
+  color: #ff0000;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 6px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  font-size: 14px;
+  color: #1d2226;
+}
+
+.signup-btn {
+  padding: 1rem;
+  height: 48px;
+  margin-top: 5rem;
+  background-color: #6c25ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
