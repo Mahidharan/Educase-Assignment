@@ -1,4 +1,4 @@
-import "../styles/profile.css";
+import "../Styles/profile.css";
 import avatar from "../assets/avatar.png";
 import group from "../assets/group.svg";
 
